@@ -1,0 +1,25 @@
+<?php
+class CacheEngine {
+    private $cacheFile = __DIR__ . '/../cache/search_cache.json';
+
+    public function get($query) {
+        if (!file_exists($this->cacheFile)) return false;
+        $cache = json_decode(file_get_contents($this->cacheFile), true);
+        // Cache expired after 1 hour
+        if (isset($cache[$query]) && (time() - $cache[$query]['time'] < 3600)) {
+            return $cache[$query]['data'];
+        }
+        return false;
+    }
+
+    public function set($query, $data) {
+        $cache = file_exists($this->cacheFile) ? json_decode(file_get_contents($this->cacheFile), true) : [];
+        $cache[$query] = ['time' => time(), 'data' => $data];
+        
+        // Batasi ukuran cache (max 100 query terakhir)
+        if (count($cache) > 100) array_shift($cache);
+        
+        file_put_contents($this->cacheFile, json_encode($cache));
+    }
+}
+?>

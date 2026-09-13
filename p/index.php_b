@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSINT Intelligence Engine v3</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+ <a href="javascript:history.back()" class="back-button"> ⬅ Kembali 
+<div class="terminal">
+
+</a>
+        <div class="header-glitch">
+            <pre>
+[ Check Data kebocoran legal intelejen 🌀 ]
+==================================
+SYS_STATE   : <span class="text-green">OPTIMAL</span>
+CACHE_ENG   : <span class="text-green">ONLINE</span>
+IDENTITY_AI : <span class="text-green">ACTIVE</span>
+==================================
+            </pre>
+        </div>
+
+        <div class="input-line">
+            <span class="prompt">root@osint:~#</span>
+            <input type="text" id="searchInput" placeholder="Enter target (Name/Phone/Nik)" autocomplete="off" autofocus>
+        </div>
+
+        <div id="loading" class="hidden">
+            <pre class="loading-text text-purple"></pre>
+        </div>
+
+        <div id="dashboard" class="hidden">
+            <pre id="statsPanel" class="box-panel text-green"></pre>
+            <div id="threatPanel"></div>
+            <div id="resultsPanel"></div>
+        </div>
+    </div>
+
+    <script src="assets/js/search.js"></script>
+</body>
+</html>

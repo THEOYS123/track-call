@@ -1,0 +1,196 @@
+document.getElementById("searchInput").addEventListener("keypress", async function (e) {
+
+    if (e.key !== "Enter") return;
+
+    const query = this.value.trim();
+    if (!query) return;
+
+    const dash = document.getElementById("dashboard");
+    const loading = document.getElementById("loading");
+    const loadingText = document.querySelector(".loading-text");
+
+    dash.classList.add("hidden");
+    loading.classList.remove("hidden");
+
+    const steps = [
+        `> target query : ${query}`,
+        "> bypassing firewalls...",
+        "> scanning index database...",
+        "> correlating identity nodes..."
+    ];
+
+    loadingText.innerHTML = "";
+
+    for (let step of steps) {
+        loadingText.innerHTML += step + "\n";
+        await new Promise(r => setTimeout(r, 400));
+    }
+
+    const formData = new FormData();
+    formData.append("query", query);
+
+    try {
+
+        const res = await fetch("search.php", {
+            method: "POST",
+            body: formData
+        }).then(r => r.json());
+
+        loading.classList.add("hidden");
+        dash.classList.remove("hidden");
+
+        renderDashboard(res);
+
+    } catch (err) {
+
+        loadingText.innerHTML +=
+            '\n<span class="text-red">[!] SYSTEM FAILURE</span>';
+
+    }
+
+});
+
+
+function renderDashboard(data) {
+
+    /* =========================
+       1. STATS PANEL
+    ========================= */
+
+    document.getElementById("statsPanel").innerHTML = `
+OSINT ENGINE STATUS
+--------------------------------
+Target Query    : ${data.query}
+Records Found   : ${data.records_found}
+Data Engine     : ${data.source}
+Search Time     : ${data.speed} sec
+Profiles Linked : ${data.profiles.length}
+`;
+
+
+
+    /* =========================
+       2. THREAT INDICATOR
+    ========================= */
+
+    const threatPanel = document.getElementById("threatPanel");
+    threatPanel.innerHTML = "";
+
+    if (data.threats.length > 0) {
+
+        let threatHtml = `
+<div class="threat-box text-red">
+WARNING
+--------------------------------
+`;
+
+        data.threats.forEach(t => {
+            threatHtml += `[!] ${t}<br>`;
+        });
+
+        threatHtml += `</div>`;
+
+        threatPanel.innerHTML = threatHtml;
+
+    }
+
+
+
+    /* =========================
+       3. RESULTS + GRAPH
+    ========================= */
+
+    const resultsPanel = document.getElementById("resultsPanel");
+    let html = "";
+
+    if (data.profiles.length === 0) {
+
+        html = `<div class="box-panel">NO INTELLIGENCE GATHERED.</div>`;
+
+    } else {
+
+        data.profiles.forEach((p, idx) => {
+
+            html += `
+<div class="box-panel profile-card">
+IDENTITY PROFILE #${idx + 1}
+------------------------
+Target Name : <span class="text-green">${p.primary_name}</span>
+
+[ RECORDED DATA ]
+`;
+
+            /* =========================
+               RAW RECORDS
+            ========================= */
+
+            p.records.forEach(r => {
+
+                html += `
+------------------------
+NIK   : ${r.nik}
+Phone : ${r.phone}
+Email : ${r.email}
+DOB   : ${r.birthdate}
+`;
+
+            });
+
+
+            /* =========================
+               NIK ANALYSIS
+            ========================= */
+
+            if (Object.keys(p.nik_analysis).length > 0) {
+
+                html += `
+[ NIK ANALYSIS ]
+`;
+
+                for (const [nik, info] of Object.entries(p.nik_analysis)) {
+
+                    html += `
+> ${nik}
+  Province : ${info.province}
+  City     : ${info.city}
+  Birth    : ${info.birthdate} (${info.gender})
+  Region   : ${info.estimation}
+`;
+
+                }
+
+            }
+
+
+            /* =========================
+               RELATIONSHIP GRAPH
+            ========================= */
+
+            html += `
+[ RELATIONSHIP GRAPH ]
+[ ${p.primary_name.toUpperCase()} ]
+`;
+
+            let nodes = [];
+
+            p.nodes.phones.forEach(n => nodes.push(`Phone : ${n}`));
+            p.nodes.emails.forEach(n => nodes.push(`Email : ${n}`));
+            p.nodes.niks.forEach(n => nodes.push(`NIK   : ${n}`));
+
+            nodes.forEach((node, i) => {
+
+                const isLast = i === nodes.length - 1;
+
+                html += `  ${isLast ? "└──" : "├──"} ${node}\n`;
+
+            });
+
+            html += `</div>`;
+
+        });
+
+    }
+
+    resultsPanel.innerHTML = `<pre>${html}</pre>`;
+
+}

@@ -1,0 +1,155 @@
+<?php
+session_start();
+
+// Sistem Counter Pengunjung (Fixed with Locking)
+$visitorFile = __DIR__ . '/data/visitors.txt';
+if (!file_exists(__DIR__ . '/data')) mkdir(__DIR__ . '/data', 0777, true);
+if (!file_exists($visitorFile)) file_put_contents($visitorFile, '0');
+
+if (!isset($_SESSION['has_visited'])) {
+    $_SESSION['has_visited'] = true;
+    $fp = fopen($visitorFile, 'c+');
+    if (flock($fp, LOCK_EX)) {
+        $visitors = (int)fread($fp, filesize($visitorFile) ?: 1);
+        $visitors++;
+        ftruncate($fp, 0);
+        rewind($fp);
+        fwrite($fp, (string)$visitors);
+        flock($fp, LOCK_UN);
+    }
+    fclose($fp);
+}
+$visitors = (int)file_get_contents($visitorFile);
+?>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSINT Intelligence Engine v4</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        /* Style Modal & Hamburger */
+        /* Pastikan class hidden ini ada dan berfungsi */
+.hidden {
+    display: none !important;
+}
+
+/* Biar transisinya halus pas muncul */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex; /* Gunakan flex untuk centering */
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    backdrop-filter: blur(5px);
+}
+
+/* Kalo ada class hidden, flex-nya harus mati */
+.modal-overlay.hidden {
+    display: none;
+}
+
+        .menu-btn { background: none; border: none; color: var(--text-main); font-size: 1.8rem; cursor: pointer; transition: 0.3s; padding: 0; }
+        .menu-btn:hover { color: var(--primary); }
+        .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); display: flex; justify-content: center; align-items: center; z-index: 9999; backdrop-filter: blur(5px); }
+        .modal-box { background: var(--bg-card); padding: 30px; border-radius: 20px; border: 1px solid var(--border); width: 90%; max-width: 400px; position: relative; }
+        .close-modal { position: absolute; top: 15px; right: 20px; background: none; border: none; color: var(--text-muted); font-size: 1.5rem; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="top-bar">
+        <div style="display: flex; align-items: center; gap: 20px;">
+            <!-- Tombol Garis Tiga -->
+            <button class="menu-btn" onclick="toggleCodeModal()">☰</button>
+            <div class="status-indicator">
+                <span>NETWORK: <span class="online">ENCRYPTED</span></span>
+                <span>CORE: <span class="online">ACTIVE</span></span>
+            </div>
+        </div>
+        <div style="text-align: right;">
+            <div>v3.0.2-STABLE</div>
+            <div style="font-size: 0.75rem; color: var(--primary); margin-top: 4px; font-weight: bold;">
+                VISITORS: <?php echo number_format($visitors); ?>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL RAHASIA (Hanya muncul saat klik garis tiga) -->
+    <div id="codeModal" class="modal-overlay hidden">
+        <div class="modal-box">
+            <button class="close-modal" onclick="toggleCodeModal()">&times;</button>
+            <h3 style="margin-top: 0; color: var(--primary);">🔑 Key Verification</h3>
+            <p style="font-size: 0.8rem; color: var(--text-muted);">Masukkan kode rahasia untuk mengecek sisa penggunaan dan masa aktif secara detail.</p>
+            
+            <input type="text" id="checkCodeInput" placeholder="Masukkan Kode..." style="width: 100%; box-sizing: border-box; margin-bottom: 10px;">
+            <button class="btn-search" style="width: 100%; height: 45px;" onclick="checkCodeStatus()">CEK DETAIL KODE</button>
+            
+            <div id="codeResult" style="margin-top: 20px; font-size: 0.85rem; padding: 15px; border-radius: 10px; background: var(--bg-body); border: 1px solid var(--border); display: none;"></div>
+        </div>
+    </div>
+
+    <div class="hero-box">
+        <h1 style="margin:0; font-size: 1.8rem;">🛡️ Data Leak Intelligence</h1>
+        <p style="color:var(--text-muted); font-size:0.9rem; margin-top:10px;">Check keamanan data pribadi melalui dataset kebocoran global secara legal.</p>
+        
+        <div class="search-group" style="flex-direction: column; max-width: 600px; margin: 20px auto 0;">
+            <div style="display: flex; gap: 10px; width: 100%;">
+                <input type="text" id="searchInput" placeholder="NIK, Nama, atau Nomor HP..." autocomplete="off">
+                <button class="btn-search" onclick="startSearch()">ANALYSIS</button>
+            </div>
+            <!-- Input Kode ini hanya untuk eksekusi Search agar tidak disensor -->
+            <input type="text" id="secretCode" placeholder="Masukkan Kode Rahasia (Opsional - Buka Sensor)" autocomplete="off" style="margin-top: 10px; font-size: 0.9rem; width: 100%; box-sizing: border-box;">
+            
+            <div style="margin-top: 15px; font-size: 0.8rem; color: var(--text-muted);">
+                Butuh akses penuh? Chat Admin: <a href="https://t.me/flood1233" target="_blank" style="color: var(--primary); text-decoration: none; font-weight: bold;">@flood1233</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="info-grid" id="mainInfo">
+        <div class="info-card">
+            <h4>Database Integrity</h4>
+            <p style="color:var(--text-muted); margin:0;">Mencakup indeks data dari 1995-2025 secara real-time.</p>
+        </div>
+        <div class="info-card">
+            <h4>End-to-End Encryption</h4>
+            <p style="color:var(--text-muted); margin:0;">Kueri enkripsi tinggi & tanpa log server.</p>
+        </div>
+        <div class="info-card">
+            <h4>Legal Compliance</h4>
+            <p style="color:var(--text-muted); margin:0;">Sesuai UU PDP Pasal 12 ayat 2.</p>
+              </div>
+        <div class="info-card">
+            <h4>WAJIB BACA BAGIAN INI!</h4>
+            <p style="color:var(--text-muted); margin:0;">Penggunaan fitur target nomor telpon<br><br>Kebanyakan orang biasanya gagal menggunakan fitur ini karena mereka langsung menyalin nomor telepon dari WhatsApp. Padahal, ada beberapa hal yang perlu diketahui terlebih dahulu mengenai cara penggunaan nomor telepon yang benar. Berikut cara penggunaannya:<br> 089512345678 (Benar)<br> 6289512345678 (benar)<br>  + 62 895-1234-5677 (salah) <br> Reqomendasi jangan menggunakan nama lengkap, karena kebanyakan nama ada yang kembar. </p>
+        </div>
+    </div>
+
+    <div id="loading" class="hidden">
+        <div style="text-align: center; padding: 40px;">
+            <div class="spinner"></div>
+            <p id="loading-status">Booting Search Engine...</p>
+        </div>
+    </div>
+
+    <div id="dashboard" class="hidden">
+        <div id="statsPanel"></div>
+        <div id="resultsPanel"></div>
+    </div>
+
+    <footer style="margin-top: 50px; text-align: center; padding: 20px; border-top: 1px solid var(--border); font-size: 0.8rem; color: var(--text-muted);">
+        <p>&copy; 2026 OSINT Intelligence Engine. Website by Xr database</p>
+    </footer>
+</div>
+
+<script src="assets/js/search.js"></script>
+</body>
+</html>

@@ -1,0 +1,204 @@
+2026-04-03 07:03:48 | IP: 127.0.0.1 | Q: rendi
+2026-04-03 07:52:31 | IP: 127.0.0.1 | Q: Rendi
+2026-04-03 08:15:29 | IP: 127.0.0.1 | Q: 0895
+2026-04-03 08:18:17 | IP: 127.0.0.1 | Q: 08951945
+2026-04-03 08:18:34 | IP: 127.0.0.1 | Q: 089519450908
+2026-04-03 08:18:54 | IP: 127.0.0.1 | Q: danis
+2026-04-03 09:26:42 | IP: 127.0.0.1 | Q: 0896
+2026-04-03 10:41:03 | IP: 127.0.0.1 | Q: ahmad
+2026-04-03 10:41:57 | IP: 127.0.0.1 | Q: ahmad
+2026-04-03 13:06:20 | IP: 127.0.0.1 | Q: asep
+2026-04-03 14:24:13 | IP: 127.0.0.1 | Q: rendi
+2026-04-03 14:36:18 | IP: 127.0.0.1 | Q: rendi
+2026-04-03 14:48:59 | IP: 127.0.0.1 | Q: alhamdulillah
+2026-04-03 14:50:31 | IP: 127.0.0.1 | Q: alhamdulillah
+2026-04-03 15:55:05 | IP: 127.0.0.1 | Q: jokowi
+2026-04-03 15:57:09 | IP: 127.0.0.1 | Q: pendi
+2026-04-03 15:59:13 | IP: 127.0.0.1 | Q: rendi
+2026-04-03 16:00:29 | IP: 127.0.0.1 | Q: prabowo
+2026-04-03 16:03:15 | IP: 127.0.0.1 | Q: pinda
+2026-04-03 16:13:54 | IP: 127.0.0.1 | Q: asep
+2026-04-03 16:14:07 | IP: 127.0.0.1 | Q: 6285893314894
+2026-04-03 16:14:17 | IP: 127.0.0.1 | Q: asep
+2026-04-03 16:41:38 | IP: 127.0.0.1 | Q: diva
+2026-04-03 16:54:31 | IP: 127.0.0.1 | Q: dafa
+2026-04-03 17:10:47 | IP: 127.0.0.1 | Q: jihan
+2026-04-03 17:26:24 | IP: 127.0.0.1 | Q: jihan fahira
+2026-04-03 17:27:11 | IP: 127.0.0.1 | Q: Rendi Muhammad
+2026-04-03 17:28:25 | IP: 127.0.0.1 | Q: diva
+2026-04-03 17:31:24 | IP: 127.0.0.1 | Q: putri
+2026-04-03 17:43:52 | IP: 127.0.0.1 | Q: 089519450905
+2026-04-03 17:43:58 | IP: 127.0.0.1 | Q: 089519450908
+2026-04-03 17:44:16 | IP: 127.0.0.1 | Q: 0895365187210
+2026-04-03 17:59:31 | IP: 127.0.0.1 | Q: rendi
+2026-04-03 17:59:35 | IP: 127.0.0.1 | Q: rendi
+2026-04-03 18:04:27 | IP: 127.0.0.1 | Q: rendi
+2026-04-03 18:04:55 | IP: 127.0.0.1 | Q: ren
+2026-04-03 18:09:41 | IP: 127.0.0.1 | Q: ren
+2026-04-03 18:13:42 | IP: 127.0.0.1 | Q: rem
+2026-04-03 18:17:21 | IP: 127.0.0.1 | Q: rendi
+2026-04-03 18:17:22 | IP: 127.0.0.1 | Q: rendi
+2026-04-03 18:17:23 | IP: 127.0.0.1 | Q: rendi
+2026-04-03 18:17:24 | IP: 127.0.0.1 | Q: rendi
+2026-04-03 18:17:25 | IP: 127.0.0.1 | Q: rendi
+2026-04-03 18:17:26 | IP: 127.0.0.1 | Q: rendi
+2026-04-03 18:17:26 | IP: 127.0.0.1 | Q: rendi
+2026-04-03 18:17:27 | IP: 127.0.0.1 | Q: rendi
+2026-04-03 18:23:34 | IP: 127.0.0.1 | Q: rendi
+2026-04-03 18:23:35 | IP: 127.0.0.1 | Q: rendi
+2026-04-03 18:24:24 | IP: 127.0.0.1 | Q: rendi
+2026-04-03 18:27:35 | IP: 127.0.0.1 | Q: rendi
+2026-04-03 18:31:14 | IP: 127.0.0.1 | Q: rendi
+2026-04-03 18:36:32 | IP: 127.0.0.1 | Q: rendi
+2026-04-03 18:51:35 | IP: 127.0.0.1 | Q: rendi
+2026-04-03 18:53:39 | IP: 127.0.0.1 | Q: yanto
+2026-04-03 18:56:54 | IP: 127.0.0.1 | Q: alhamdulillah
+2026-04-03 19:06:20 | IP: 127.0.0.1 | Q: Abdul Haris Nasution
+2026-04-03 19:09:35 | IP: 127.0.0.1 | Q: abdul hajajaja
+2026-04-03 19:09:38 | IP: 127.0.0.1 | Q: +62 821-1421-452
+2026-04-03 19:09:45 | IP: 127.0.0.1 | Q: abdul haris
+2026-04-03 19:09:54 | IP: 127.0.0.1 | Q: aris
+2026-04-03 19:10:05 | IP: 127.0.0.1 | Q: aris
+2026-04-03 19:10:12 | IP: 127.0.0.1 | Q: aris
+2026-04-03 19:10:17 | IP: 127.0.0.1 | Q: haris
+2026-04-03 19:19:32 | IP: 127.0.0.1 | Q: +62 821-1421
+2026-04-03 19:19:55 | IP: 127.0.0.1 | Q: +62 821
+2026-04-03 19:20:21 | IP: 127.0.0.1 | Q: 0821
+2026-04-03 19:20:47 | IP: 127.0.0.1 | Q: 0821-1421-452
+2026-04-03 19:20:55 | IP: 127.0.0.1 | Q: 0821-1421
+2026-04-03 19:21:19 | IP: 127.0.0.1 | Q: 08211421
+2026-04-03 19:21:36 | IP: 127.0.0.1 | Q: +62 821
+2026-04-03 19:21:51 | IP: 127.0.0.1 | Q: 62821
+2026-04-03 19:33:20 | IP: 127.0.0.1 | Q: samsul
+2026-04-03 19:36:28 | IP: 127.0.0.1 | Q: rendi
+2026-04-03 19:37:35 | IP: 127.0.0.1 | Q: rendi
+2026-04-04 03:10:47 | IP: 127.0.0.1 | Q: diva
+2026-04-04 03:14:52 | IP: 127.0.0.1 | Q: reva
+2026-04-04 03:15:09 | IP: 127.0.0.1 | Q: reva
+2026-04-04 03:15:13 | IP: 127.0.0.1 | Q: reva septian
+2026-04-04 06:14:29 | IP: 127.0.0.1 | Q: adit
+2026-04-04 06:15:44 | IP: 127.0.0.1 | Q: remdi
+2026-04-04 06:15:50 | IP: 127.0.0.1 | Q: adit
+2026-04-04 06:16:16 | IP: 127.0.0.1 | Q: adit
+2026-04-04 06:16:57 | IP: 127.0.0.1 | Q: adut
+2026-04-04 06:17:04 | IP: 127.0.0.1 | Q: adit
+2026-04-04 06:17:26 | IP: 127.0.0.1 | Q: agus
+2026-04-04 06:19:32 | IP: 127.0.0.1 | Q: adit
+2026-04-04 06:19:46 | IP: 127.0.0.1 | Q: pend
+2026-04-04 06:20:03 | IP: 127.0.0.1 | Q: mulyono
+2026-04-04 06:20:20 | IP: 127.0.0.1 | Q: mamat
+2026-04-04 06:20:53 | IP: 127.0.0.1 | Q: rendi
+2026-04-04 06:21:05 | IP: 127.0.0.1 | Q: sarah
+2026-04-04 06:23:20 | IP: 127.0.0.1 | Q: apa
+2026-04-04 06:23:29 | IP: 127.0.0.1 | Q: ren
+2026-04-04 06:23:49 | IP: 127.0.0.1 | Q: agus
+2026-04-04 06:32:56 | IP: 127.0.0.1 | Q: agus
+2026-04-04 06:35:26 | IP: 127.0.0.1 | Q: andi
+2026-04-04 06:41:44 | IP: 127.0.0.1 | Q: agus
+2026-04-04 06:51:22 | IP: 127.0.0.1 | Q: agua
+2026-04-04 06:51:32 | IP: 127.0.0.1 | Q: rendi
+2026-04-04 06:51:44 | IP: 127.0.0.1 | Q: adit
+2026-04-04 06:52:36 | IP: 127.0.0.1 | Q: komang
+2026-04-04 06:55:08 | IP: 127.0.0.1 | Q: komar
+2026-04-04 06:58:33 | IP: 127.0.0.1 | Q: rendi
+2026-04-04 06:59:34 | IP: 127.0.0.1 | Q: adit
+2026-04-04 10:33:59 | IP: 127.0.0.1 | Q: ahmad
+2026-04-04 16:57:18 | IP: 127.0.0.1 | Q: rahmat
+2026-04-04 17:34:39 | IP: 127.0.0.1 | Q: rendi@gmail.com
+2026-04-04 17:36:08 | IP: 127.0.0.1 | Q: jule
+2026-04-04 18:07:05 | IP: 127.0.0.1 | Q: fawaz
+2026-04-04 18:22:14 | IP: 127.0.0.1 | Q: ttt
+2026-04-04 18:34:58 | IP: 127.0.0.1 | Q: cantik
+2026-04-04 18:35:17 | IP: 127.0.0.1 | Q: samsudin
+2026-04-04 18:35:33 | IP: 127.0.0.1 | Q: samsul
+2026-04-04 18:35:46 | IP: 127.0.0.1 | Q: dayat
+2026-04-04 18:36:38 | IP: 127.0.0.1 | Q: dayat
+2026-04-04 18:37:29 | IP: 127.0.0.1 | Q: samsudin
+2026-04-04 18:37:38 | IP: 127.0.0.1 | Q: dayat
+2026-04-07 10:43:17 | IP: 127.0.0.1 | Q: ren
+2026-04-07 11:10:20 | IP: 127.0.0.1 | Q: rendi | Code:  | Censored: YES
+2026-04-07 11:12:21 | IP: 127.0.0.1 | Q: rendi | Code:  | Censored: YES
+2026-04-07 11:12:27 | IP: 127.0.0.1 | Q: rendi | Code: ppp | Censored: NO
+2026-04-07 11:12:50 | IP: 127.0.0.1 | Q: ahmad | Code: ppp | Censored: NO
+2026-04-07 11:13:49 | IP: 127.0.0.1 | Q: adit | Code: ppp | Censored: YES
+2026-04-07 11:13:53 | IP: 127.0.0.1 | Q: adit | Code: ppp | Censored: YES
+2026-04-07 11:39:33 | IP: 127.0.0.1 | Q: alhamdulillah | Code:  | Censored: YES
+2026-04-07 11:40:12 | IP: 127.0.0.1 | Q: alhamdulillah | Code: ngoprek-member-2024 | Censored: NO
+2026-04-07 11:44:23 | IP: 127.0.0.1 | Q: alhamdulillah | Code: ppp | Censored: YES
+2026-04-07 11:44:40 | IP: 127.0.0.1 | Q: ppp | Code: ppp | Censored: YES
+2026-04-07 11:45:34 | IP: 127.0.0.1 | Q: pp | Code: ngoprek-member-2024 | Censored: NO
+2026-04-07 12:52:56 | IP: 127.0.0.1 | Q: alhamdulillah | Code:  | Censored: YES
+2026-04-07 12:53:00 | IP: 127.0.0.1 | Q: alhamdulillah | Code: ppp | Censored: YES
+2026-04-07 12:53:23 | IP: 127.0.0.1 | Q: alhamdulillah | Code: ngoprek-member-2024 | Censored: NO
+2026-04-07 12:55:29 | IP: 127.0.0.1 | Q: Agung Maulana Ibrahim | Code: ngoprek-member-2024 | Censored: NO
+2026-04-07 12:55:40 | IP: 127.0.0.1 | Q: Agung Maulana | Code: ngoprek-member-2024 | Censored: NO
+2026-04-07 12:56:25 | IP: 127.0.0.1 | Q: 62895401389476 | Code: ngoprek-member-2024 | Censored: NO
+2026-04-07 12:57:08 | IP: 127.0.0.1 | Q: 6285643835272 | Code: ngoprek-member-2024 | Censored: NO
+2026-04-07 12:57:21 | IP: 127.0.0.1 | Q: 6283849804889 | Code: ngoprek-member-2024 | Censored: NO
+2026-04-07 12:57:32 | IP: 127.0.0.1 | Q: Syafiq Arya | Code: ngoprek-member-2024 | Censored: NO
+2026-04-07 12:57:44 | IP: 127.0.0.1 | Q: Agung Maulana | Code: ngoprek-member-2024 | Censored: NO
+2026-04-07 13:08:01 | IP: 127.0.0.1 | Q: 082121861072 | Code:  | Censored: YES
+2026-04-07 13:08:14 | IP: 127.0.0.1 | Q: 082121861072 | Code: ngoprek-member-2024 | Censored: NO
+2026-04-07 13:08:41 | IP: 127.0.0.1 | Q: M | Code:  | Censored: YES
+2026-04-07 13:09:12 | IP: 127.0.0.1 | Q: muh. ikram | Code: ngoprek-member-2024 | Censored: NO
+2026-04-07 13:09:14 | IP: 127.0.0.1 | Q: muh. ikram | Code: ngoprek-member-2024 | Censored: NO
+2026-04-07 13:09:16 | IP: 127.0.0.1 | Q: muh. ikram | Code: ngoprek-member-2024 | Censored: NO
+2026-04-07 13:09:18 | IP: 127.0.0.1 | Q: Lina Siti Karwati | Code:  | Censored: YES
+2026-04-07 13:09:33 | IP: 127.0.0.1 | Q: risma ayu ningsih | Code:  | Censored: YES
+2026-04-07 13:09:35 | IP: 127.0.0.1 | Q: 6285143929967 | Code: ngoprek-member-2024 | Censored: NO
+2026-04-07 13:09:41 | IP: 127.0.0.1 | Q: ren | Code:  | Censored: YES
+2026-04-07 13:10:30 | IP: 127.0.0.1 | Q: 6282172291324 | Code:  | Censored: YES
+2026-04-07 13:17:55 | IP: 127.0.0.1 | Q: muh. ikram | Code:  | Censored: YES
+2026-04-07 13:18:03 | IP: 127.0.0.1 | Q: ikram | Code:  | Censored: YES
+2026-04-08 13:20:52 | IP: 127.0.0.1 | Q: alhamdulillah | Code: test | Censored: NO
+2026-04-08 13:21:02 | IP: 127.0.0.1 | Q: alhamdulillah | Code:  | Censored: YES
+2026-04-08 13:21:52 | IP: 127.0.0.1 | Q: alhamdulillah | Code: test | Censored: YES
+2026-04-08 13:22:04 | IP: 127.0.0.1 | Q: alhamdulillah | Code: test | Censored: NO
+2026-04-08 13:22:07 | IP: 127.0.0.1 | Q: alhamdulillah | Code: test | Censored: YES
+2026-04-27 04:51:09 | IP: 127.0.0.1 | Q: bbrp | Code:  | Censored: YES
+2026-04-27 04:51:26 | IP: 127.0.0.1 | Q: 6289524135504 | Code:  | Censored: YES
+2026-04-27 04:51:42 | IP: 127.0.0.1 | Q: ren | Code:  | Censored: YES
+2026-05-03 04:36:51 | IP: 127.0.0.1 | Q: 6281246292650 | Code:  | Censored: YES
+2026-05-20 01:33:46 | IP: 127.0.0.1 | Q: panji | Code:  | Censored: YES
+2026-05-20 01:34:09 | IP: 127.0.0.1 | Q: panji | Code: ngoprek-member-2024 | Censored: NO
+2026-05-23 15:57:18 | IP: 127.0.0.1 | Q: siska | Code:  | Censored: YES
+2026-05-23 15:57:38 | IP: 127.0.0.1 | Q: siska | Code: ngoprek-membee-2024 | Censored: YES
+2026-05-23 15:57:47 | IP: 127.0.0.1 | Q: siska | Code: ngoprek-member-2024 | Censored: NO
+2026-05-23 15:58:24 | IP: 127.0.0.1 | Q: siska adera | Code: ngoprek-member-2024 | Censored: NO
+2026-05-23 15:58:35 | IP: 127.0.0.1 | Q: rendi | Code: ngoprek-member-2024 | Censored: NO
+2026-07-10 15:33:58 | IP: 127.0.0.1 | Q: siska | Code:  | Censored: YES
+2026-07-10 15:34:20 | IP: 127.0.0.1 | Q: siska | Code: ngoprek-member-2024 | Censored: NO
+2026-07-10 15:37:37 | IP: 127.0.0.1 | Q: rendi | Code: ngoprek-member-2024 | Censored: NO
+2026-07-10 18:43:06 | IP: 127.0.0.1 | Q: +628878875758 | Code:  | Censored: YES
+2026-07-10 18:44:01 | IP: 127.0.0.1 | Q: +62895630927890 | Code:  | Censored: YES
+2026-07-10 18:45:22 | IP: 127.0.0.1 | Q: arumii | Code:  | Censored: YES
+2026-07-10 18:46:18 | IP: 127.0.0.1 | Q: Genta | Code:  | Censored: YES
+2026-07-10 18:48:10 | IP: 127.0.0.1 | Q: Genta surya dewa | Code:  | Censored: YES
+2026-07-10 18:48:12 | IP: 127.0.0.1 | Q: Genta surya dewa | Code:  | Censored: YES
+2026-07-10 18:48:19 | IP: 127.0.0.1 | Q: Gentasuryadewa | Code:  | Censored: YES
+2026-07-10 18:48:26 | IP: 127.0.0.1 | Q: Gentasurya | Code:  | Censored: YES
+2026-07-10 18:48:35 | IP: 127.0.0.1 | Q: Jingga | Code:  | Censored: YES
+2026-07-10 19:06:21 | IP: 127.0.0.1 | Q: jingga | Code:  | Censored: YES
+2026-07-10 19:06:35 | IP: 127.0.0.1 | Q: jingga | Code: ppp | Censored: NO
+2026-07-10 19:07:46 | IP: 127.0.0.1 | Q: 6287711760606 | Code: ppp | Censored: NO
+2026-07-10 19:07:58 | IP: 127.0.0.1 | Q: +6287711760606 | Code: ppp | Censored: NO
+2026-07-10 19:08:22 | IP: 127.0.0.1 | Q: 62895630927890 | Code: ppp | Censored: NO
+2026-07-10 19:08:38 | IP: 127.0.0.1 | Q: 628878875758 | Code: ppp | Censored: NO
+2026-07-10 19:08:56 | IP: 127.0.0.1 | Q: 6289519450908 | Code: ppp | Censored: NO
+2026-07-10 19:09:11 | IP: 127.0.0.1 | Q: Gentasuryadewa | Code: ppp | Censored: NO
+2026-07-10 19:09:32 | IP: 127.0.0.1 | Q: Gentasurya | Code: ppp | Censored: NO
+2026-07-10 19:09:41 | IP: 127.0.0.1 | Q: Genta | Code: ppp | Censored: NO
+2026-07-10 19:10:28 | IP: 127.0.0.1 | Q: arumii | Code: ppp | Censored: NO
+2026-07-10 19:11:10 | IP: 127.0.0.1 | Q: test admin | Code: ppp | Censored: YES
+2026-07-11 15:15:06 | IP: 127.0.0.1 | Q: Rafael | Code: Ppp | Censored: YES
+2026-07-11 15:40:09 | IP: 127.0.0.1 | Q: rafael | Code:  | Censored: YES
+2026-07-17 06:16:59 | IP: 127.0.0.1 | Q: arista | Code:  | Censored: YES
+2026-07-17 06:18:16 | IP: 127.0.0.1 | Q: arista | Code: ppp | Censored: NO
+2026-07-17 06:18:43 | IP: 127.0.0.1 | Q: 6285885175197 | Code: ppp | Censored: NO
+2026-07-17 06:19:06 | IP: 127.0.0.1 | Q: 6281321366071 | Code: ppp | Censored: NO
+2026-07-17 06:21:16 | IP: 127.0.0.1 | Q: fauzan | Code: ppp | Censored: NO
+2026-07-17 06:21:37 | IP: 127.0.0.1 | Q: 6289519450908 | Code: ppp | Censored: NO
+2026-07-29 05:11:16 | IP: 127.0.0.1 | Q: haris | Code:  | Censored: YES
+2026-07-29 05:11:36 | IP: 127.0.0.1 | Q: haris | Code: ngoprek-member-2024 | Censored: YES
+2026-07-29 05:12:14 | IP: 127.0.0.1 | Q: haris | Code: ppp | Censored: YES
+2026-07-29 05:13:05 | IP: 127.0.0.1 | Q: haris | Code: ppp | Censored: NO

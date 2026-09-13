@@ -1,0 +1,75 @@
+:root {
+    --primary: #2563eb;
+    --primary-glow: rgba(37, 99, 235, 0.4);
+    --bg-body: #f8fafc;
+    --bg-card: #ffffff;
+    --text-main: #1e293b;
+    --text-muted: #64748b;
+    --border: #e2e8f0;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-body: #020617;
+        --bg-card: #0f172a;
+        --text-main: #f1f5f9;
+        --text-muted: #94a3b8;
+        --border: #1e293b;
+    }
+}
+
+body {
+    background-color: var(--bg-body);
+    color: var(--text-main);
+    font-family: 'Inter', sans-serif;
+    margin: 0; padding: 20px;
+}
+
+.container { max-width: 1000px; margin: 0 auto; }
+
+/* Header & Status Bar */
+.top-bar {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 10px 20px; background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 12px; margin-bottom: 20px; font-size: 0.75rem; font-family: monospace;
+}
+
+.status-indicator { display: flex; gap: 15px; }
+.online { color: #10b981; }
+
+/* Search Box Area */
+.hero-box {
+    text-align: center; padding: 40px 20px; background: var(--bg-card);
+    border: 1px solid var(--border); border-radius: 20px; margin-bottom: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.search-group { 
+    display: flex; gap: 10px; max-width: 600px; margin: 20px auto 0;
+}
+
+input {
+    flex: 1; padding: 14px 20px; border-radius: 12px; border: 2px solid var(--border);
+    background: var(--bg-body); color: var(--text-main); font-size: 1rem;
+}
+
+input:focus { border-color: var(--primary); outline: none; box-shadow: 0 0 15px var(--primary-glow); }
+
+.btn-search {
+    background: var(--primary); color: white; border: none; padding: 0 25px;
+    border-radius: 12px; cursor: pointer; font-weight: 700;
+}
+
+/* Info Cards (Bagian yang Hilang) */
+.info-grid {
+    display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px; margin-bottom: 30px;
+}
+
+.info-card {
+    background: var(--bg-card); padding: 15px; border: 1px solid var(--border);
+    border-radius: 12px; font-size: 0.85rem;
+}
+
+.info-card h4 { margin: 0 0 5px 0; font-size: 0.9rem; color: var(--primary); }
+
+.hidden { display: none; }
